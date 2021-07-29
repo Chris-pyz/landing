@@ -8,10 +8,17 @@
 color: goldenrod;
 }
 
-#footer .fas {
+.far {
   color: red;
+  font-size: 40px;
 }
-.fab {
- font-size: 30px;
- color: #1EDD88;
+
+.fab, .fas  {
+ font-size: 40px;
+ color: #1EDD9E;
+}
+
+.fas:hover, .fab:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
 }
